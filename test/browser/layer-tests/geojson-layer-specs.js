@@ -40,9 +40,8 @@ import {
   geoStyleDataToFeature,
   geoStyleMeta
 } from 'test/fixtures/geojson';
-import {createNewDataEntry} from 'utils/dataset-utils';
+import {createNewDataEntry, copyTableAndUpdate} from '../utils';
 import {processGeojson} from 'processors/data-processor';
-import {copyTableAndUpdate} from 'utils/table-utils/kepler-table';
 
 test('#GeojsonLayer -> constructor', t => {
   const TEST_CASES = {
