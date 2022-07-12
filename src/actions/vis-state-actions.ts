@@ -21,7 +21,7 @@
 // vis-state-reducer
 import {default as ActionTypes} from './action-types';
 import {AddDataToMapPayload} from '../actions/actions';
-import {FileCacheItem} from '../processors/types';
+import {FileCacheItem} from '@kepler.gl/processors';
 import {Layer, LayerBaseConfig, LayerVisConfig} from 'layers';
 import {Feature, InteractionConfig} from 'reducers/vis-state-updaters';
 import {ValueOf, Merge, RGBColor, NestedPartial} from '@kepler.gl/types';
