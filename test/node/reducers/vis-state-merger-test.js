@@ -38,7 +38,7 @@ import {receiveMapConfig, addDataToMap} from 'actions/actions';
 import {defaultInteractionConfig} from 'reducers/vis-state-updaters';
 import {processKeplerglJSON} from 'processors/data-processor';
 
-import {createDataContainer} from '../utils';
+import {createDataContainer} from '../../../src/utils';
 
 // fixtures
 import {

@@ -40,7 +40,7 @@ import {
   geoStyleDataToFeature,
   geoStyleMeta
 } from 'test/fixtures/geojson';
-import {createNewDataEntry, copyTableAndUpdate} from '../utils';
+import {createNewDataEntry, copyTableAndUpdate} from '../../../src/utils';
 import {processGeojson} from 'processors/data-processor';
 
 test('#GeojsonLayer -> constructor', t => {

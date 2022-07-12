@@ -27,7 +27,7 @@ import {
   KeplerTable,
   findPointFieldPairs,
   createDataContainer
-} from '../utils';
+} from '../../../src/utils';
 import {processCsvData, processGeojson} from 'processors/data-processor';
 import {GEOJSON_FIELDS} from '@kepler.gl/constants';
 import {LayerClasses, KeplerGlLayers} from '@kepler.gl/layers';

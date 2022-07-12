@@ -19,7 +19,11 @@
 // THE SOFTWARE.
 
 import test from 'tape';
-import {isKeplerGlMap, makeProgressIterator, filesToDataPayload} from 'processors/file-handler';
+import {
+  isKeplerGlMap,
+  makeProgressIterator,
+  filesToDataPayload
+} from 'processors/file-handler';
 import {parsedFields, parsedRows} from 'test/fixtures/row-object';
 import {
   savedStateV1InteractionCoordinate as keplerglMap,

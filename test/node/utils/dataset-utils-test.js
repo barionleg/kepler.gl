@@ -19,7 +19,7 @@
 // THE SOFTWARE.
 
 import test from 'tape';
-import {findDefaultColorField, createNewDataEntry} from '../utils';
+import {findDefaultColorField, createNewDataEntry} from '../../../src/utils';
 
 import {processCsvData} from 'processors/data-processor';
 

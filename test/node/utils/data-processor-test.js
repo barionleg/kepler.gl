@@ -43,7 +43,6 @@ import {
 } from 'test/fixtures/geojson';
 
 import {
-  ACCEPTED_ANALYZER_TYPES,
   parseCsvRowsByFieldType,
   processCsvData,
   processGeojson,
@@ -51,13 +50,14 @@ import {
 } from 'processors/data-processor';
 
 import {
+  ACCEPTED_ANALYZER_TYPES,
   analyzerTypeToFieldType,
   getSampleForTypeAnalyze,
   createDataContainer,
   formatCsv,
   validateInputData,
   getFieldsFromData
-} from '../utils';
+} from '../../../src/utils';
 
 import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
 import {cmpFields} from '../../helpers/comparison-utils';
