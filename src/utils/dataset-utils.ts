@@ -26,13 +26,12 @@ import {Analyzer, DATA_TYPES as AnalyzerDATA_TYPES} from 'type-analyzer';
 
 import {Datasets} from 'reducers';
 import {ProtoDataset} from 'actions';
-import {RGBColor} from '@kepler.gl/types';
+import {RGBColor, ProcessorResult, RowData, Field} from '@kepler.gl/types';
 import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
 
 import {hexToRgb} from './color-utils';
-import KeplerTable, {Field} from './table-utils/kepler-table';
+import KeplerTable, {} from './table-utils/kepler-table';
 import {notNullorUndefined, isPlainObject} from './data-utils';
-import {ProcessorResult, RowData} from './types';
 
 // apply a color for each dataset
 // to use as label colors

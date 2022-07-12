@@ -32,7 +32,7 @@ import {findMapBounds, isPlainObject} from '../utils';
 import {filesToDataPayload} from 'processors/file-handler';
 import {payload_, apply_, with_, if_, compose_, merge_, pick_} from './composer-helpers';
 import {VisState} from './vis-state-updaters';
-import {MapState} from './map-state-updaters';
+import {MapState} from '@kepler.gl/types';
 import {UiState} from './ui-state-updaters';
 import {MapStyle} from './map-style-updaters';
 import {ProviderState} from './provider-state-updaters';

@@ -31,6 +31,7 @@ import {
   FourByThreeRatioOption,
   OneXResolutionOption
 } from '@kepler.gl/constants';
+import {Field} from '@kepler.gl/types';
 import {exportMapToHTML} from 'templates';
 import {ExportImage} from 'reducers';
 

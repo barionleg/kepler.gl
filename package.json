@@ -16,8 +16,8 @@
   ],
   "private": true,
   "workspaces": [
-    "./src/constants",
     "./src/types",
+    "./src/constants",
     "./src/deckgl-layers",
     "./src/layers"
   ],
