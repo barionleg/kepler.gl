@@ -28,7 +28,7 @@ import {DATASET_FORMATS} from '@kepler.gl/constants';
 import {LoaderObject} from '@loaders.gl/loader-utils';
 import {AddDataToMapPayload} from 'actions/actions';
 import {FileCacheItem, ValidKeplerGlMap} from './types';
-import {Feature} from 'reducers';
+import {Feature} from '@kepler.gl/types';
 import {FeatureCollection} from '@turf/helpers';
 
 const BATCH_TYPE = {

@@ -24,13 +24,11 @@ import {range} from 'd3-array';
 import {console as globalConsole} from 'global/window';
 import {Analyzer, DATA_TYPES as AnalyzerDATA_TYPES} from 'type-analyzer';
 
-import {Datasets} from 'reducers';
-import {ProtoDataset} from 'actions';
-import {RGBColor, ProcessorResult, RowData, Field} from '@kepler.gl/types';
+import {ProtoDataset, RGBColor, ProcessorResult, RowData, Field} from '@kepler.gl/types';
 import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
 
 import {hexToRgb} from './color-utils';
-import KeplerTable, {} from './table-utils/kepler-table';
+import KeplerTable, {Datasets} from './table-utils/kepler-table';
 import {notNullorUndefined, isPlainObject} from './data-utils';
 
 // apply a color for each dataset

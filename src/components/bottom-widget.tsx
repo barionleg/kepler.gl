@@ -26,7 +26,7 @@ import AnimationControllerFactory from './common/animation-control/animation-con
 import {ANIMATION_WINDOW, DIMENSIONS, FILTER_TYPES} from '@kepler.gl/constants';
 import {getIntervalBins} from '../utils';
 import {media} from 'styles/media-breakpoints';
-import {AnimationConfig, TimeRangeFilter} from 'reducers';
+import {AnimationConfig, TimeRangeFilter} from '@kepler.gl/types';
 import {bottomWidgetSelector} from './kepler-gl';
 
 const maxWidth = 1080;
