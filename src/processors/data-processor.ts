@@ -26,12 +26,12 @@ import {
   notNullorUndefined,
   hasOwnProperty,
   isPlainObject,
-  toArray,
   analyzerTypeToFieldType,
   getSampleForTypeAnalyze,
   getFieldsFromData,
   formatCsv
-} from '../utils';
+} from '@kepler.gl/layers';
+import {toArray} from '../utils';
 import KeplerGlSchema, {SavedMap, ParsedDataset} from 'schemas';
 import {LoadedMap} from 'schemas/schema-manager';
 import {Feature} from '@nebula.gl/edit-modes';

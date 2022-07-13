@@ -21,16 +21,17 @@
 import test from 'tape';
 import cloneDeep from 'lodash.clonedeep';
 import {
+  LayerClasses,
+  KeplerGlLayers,
   findDefaultLayer,
   getLayerHoverProp,
   createNewDataEntry,
   KeplerTable,
   findPointFieldPairs,
   createDataContainer
-} from '../../../src/utils';
+} from '@kepler.gl/layers';
 import {processCsvData, processGeojson} from 'processors/data-processor';
 import {GEOJSON_FIELDS} from '@kepler.gl/constants';
-import {LayerClasses, KeplerGlLayers} from '@kepler.gl/layers';
 import {StateWTripGeojson, StateWFiles} from 'test/helpers/mock-state';
 
 const {PointLayer, ArcLayer, GeojsonLayer, LineLayer} = KeplerGlLayers;

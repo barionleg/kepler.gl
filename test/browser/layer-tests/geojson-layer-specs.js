@@ -19,7 +19,14 @@
 // THE SOFTWARE.
 
 import test from 'tape';
-import {KeplerGlLayers, defaultElevation, defaultLineWidth, defaultRadius} from '@kepler.gl/layers';
+import {
+  KeplerGlLayers,
+  defaultElevation,
+  defaultLineWidth,
+  defaultRadius,
+  createNewDataEntry,
+  copyTableAndUpdate
+} from '@kepler.gl/layers';
 
 const {GeojsonLayer} = KeplerGlLayers;
 
@@ -40,7 +47,6 @@ import {
   geoStyleDataToFeature,
   geoStyleMeta
 } from 'test/fixtures/geojson';
-import {createNewDataEntry, copyTableAndUpdate} from '../../../src/utils';
 import {processGeojson} from 'processors/data-processor';
 
 test('#GeojsonLayer -> constructor', t => {
