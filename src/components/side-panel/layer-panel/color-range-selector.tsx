@@ -29,7 +29,7 @@ import Switch from 'components/common/switch';
 import ColorPalette from './color-palette';
 import CustomPalette from './custom-palette';
 import {COLOR_RANGES, ColorRange} from '@kepler.gl/constants';
-import {reverseColorRange} from '../../../utils';
+import {reverseColorRange} from '@kepler.gl/utils';
 import {FormattedMessage} from 'localization';
 import {numberSort} from '@kepler.gl/layers';
 import {NestedPartial, ColorUI} from '@kepler.gl/types';

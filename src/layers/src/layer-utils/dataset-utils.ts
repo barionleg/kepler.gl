@@ -27,7 +27,7 @@ import {Analyzer, DATA_TYPES as AnalyzerDATA_TYPES} from 'type-analyzer';
 import {ProtoDataset, RGBColor, ProcessorResult, RowData, Field} from '@kepler.gl/types';
 import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
 
-import {hexToRgb} from '../../../utils';
+import {hexToRgb} from '@kepler.gl/utils';
 import KeplerTable, {Datasets} from './table-utils/kepler-table';
 import {notNullorUndefined, isPlainObject} from './data-utils';
 

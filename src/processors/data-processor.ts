@@ -31,7 +31,7 @@ import {
   getFieldsFromData,
   formatCsv
 } from '@kepler.gl/layers';
-import {toArray} from '../utils';
+import {toArray} from '@kepler.gl/utils';
 import KeplerGlSchema, {SavedMap, ParsedDataset} from 'schemas';
 import {LoadedMap} from 'schemas/schema-manager';
 import {Feature} from '@nebula.gl/edit-modes';

@@ -33,7 +33,7 @@ import {
 import {media} from 'styles/media-breakpoints';
 
 // Utils
-import {transformRequest} from '../../utils';
+import {transformRequest} from '@kepler.gl/utils';
 import {injectIntl, IntlShape} from 'react-intl';
 import {FormattedMessage} from 'localization';
 import {InputStyle} from 'reducers';

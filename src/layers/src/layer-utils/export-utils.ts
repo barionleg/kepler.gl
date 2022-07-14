@@ -35,7 +35,7 @@ import {
 import {Field} from '@kepler.gl/types';
 import {exportMapToHTML} from 'templates';
 
-import {set, generateHashId, domtoimage} from '../../../utils';
+import {set, generateHashId, domtoimage} from '@kepler.gl/utils';
 import {createIndexedDataContainer} from './table-utils/data-container-utils';
 import {parseFieldValue} from './data-utils';
 import {DataContainerInterface} from './table-utils/data-container-interface';

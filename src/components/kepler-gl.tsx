@@ -69,7 +69,7 @@ import {
   mergeMessages,
   observeDimensions,
   unobserveDimensions
-} from '../utils';
+} from '@kepler.gl/utils';
 
 import {theme as basicTheme, themeLT, themeBS} from 'styles/base';
 import {KeplerGlState} from 'reducers/core';
