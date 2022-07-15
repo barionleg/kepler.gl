@@ -28,7 +28,7 @@ import {ProtoDataset, RGBColor, ProcessorResult, RowData, Field} from '@kepler.g
 import {ALL_FIELD_TYPES} from '@kepler.gl/constants';
 
 import {hexToRgb} from '@kepler.gl/utils';
-import KeplerTable, {Datasets} from './table-utils/kepler-table';
+import KeplerTable, {Datasets} from 'reducers/table-utils/kepler-table';
 import {notNullorUndefined, isPlainObject} from './data-utils';
 
 // apply a color for each dataset

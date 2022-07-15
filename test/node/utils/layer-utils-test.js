@@ -22,14 +22,12 @@ import test from 'tape';
 import cloneDeep from 'lodash.clonedeep';
 import {
   LayerClasses,
-  KeplerGlLayers,
   findDefaultLayer,
   getLayerHoverProp,
-  createNewDataEntry,
-  KeplerTable,
-  findPointFieldPairs,
-  createDataContainer
+  KeplerGlLayers,
+  createNewDataEntry
 } from '@kepler.gl/layers';
+import {createDataContainer, findPointFieldPairs, KeplerTable} from 'reducers/table-utils';
 import {processCsvData, processGeojson} from 'processors/data-processor';
 import {GEOJSON_FIELDS} from '@kepler.gl/constants';
 import {StateWTripGeojson, StateWFiles} from 'test/helpers/mock-state';

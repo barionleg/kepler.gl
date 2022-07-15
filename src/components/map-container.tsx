@@ -47,8 +47,7 @@ import {
   prepareLayersToRender,
   prepareLayersForDeck,
   LayerHoverProp,
-  VisualChannelDomain,
-  Datasets
+  VisualChannelDomain
 } from '@kepler.gl/layers';
 import {Filter, InteractionConfig, MapState, SplitMapLayers} from '@kepler.gl/types';
 import {
@@ -65,11 +64,8 @@ import {FILTER_TYPES, GEOCODER_LAYER_ID, THROTTLE_NOTIFICATION_TIME} from '@kepl
 
 import ErrorBoundary from 'components/common/error-boundary';
 import {LOCALE_CODES} from 'localization/locales';
-import {
-  MapControls,
-  MapStyle,
-  Viewport
-} from 'reducers';
+import {MapControls, MapStyle, Viewport} from 'reducers';
+import {Datasets} from 'reducers/table-utils/kepler-table';
 
 /** @type {{[key: string]: React.CSSProperties}} */
 const MAP_STYLE: {[key: string]: React.CSSProperties} = {
