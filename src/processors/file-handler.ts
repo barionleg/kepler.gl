@@ -59,11 +59,11 @@ export function isGeoJson(json: unknown): json is Feature | FeatureCollection {
 }
 
 export function isFeature(json: unknown): json is Feature {
-  return isPlainObject(json) && json.type === 'Feature' && !!json.geometry;
+  return isPlainObject(json) && json.type === 'Feature' && Boolean(json.geometry);
 }
 
 export function isFeatureCollection(json: unknown): json is FeatureCollection {
-  return isPlainObject(json) && json.type === 'FeatureCollection' && !!json.features;
+  return isPlainObject(json) && json.type === 'FeatureCollection' && Boolean(json.features);
 }
 
 export function isRowObject(json: any): boolean {
