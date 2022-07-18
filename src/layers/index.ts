@@ -34,6 +34,7 @@ import {default as S2GeometryLayer} from './s2-geometry-layer/s2-geometry-layer'
 import {LAYER_TYPES} from 'layers/types';
 // base layer
 export {default as Layer, OVERLAY_TYPE, LAYER_ID_LENGTH, colorMaker} from './base-layer';
+// eslint-disable-next-line prettier/prettier
 export type {LayerBaseConfig, LayerColumns, LayerColumn} from './base-layer';
 
 // individual layers
