@@ -36,9 +36,7 @@ import {LAYER_BLENDINGS} from '@kepler.gl/constants';
 import {CURRENT_VERSION, visStateSchema} from 'schemas';
 
 import {VisState} from './vis-state-updaters';
-import {ParsedConfig, ParsedLayer} from 'schemas';
-import {TooltipInfo} from '@kepler.gl/types';
-import {SavedInteractionConfig} from 'schemas/schema-manager';
+import {TooltipInfo, ParsedConfig, ParsedLayer, SavedInteractionConfig} from '@kepler.gl/types';
 import KeplerTable, {Datasets} from './table-utils/kepler-table';
 
 export type Merger = {

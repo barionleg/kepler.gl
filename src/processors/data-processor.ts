@@ -21,7 +21,7 @@
 import {csvParseRows} from 'd3-dsv';
 import normalize from '@mapbox/geojson-normalize';
 import {ALL_FIELD_TYPES, DATASET_FORMATS, GUIDES_FILE_FORMAT_DOC} from '@kepler.gl/constants';
-import {ProcessorResult, Field} from '@kepler.gl/types';
+import {ProcessorResult, Field, SavedMap, ParsedDataset, LoadedMap} from '@kepler.gl/types';
 import {
   notNullorUndefined,
   hasOwnProperty,
@@ -32,8 +32,7 @@ import {
   formatCsv
 } from '@kepler.gl/layers';
 import {toArray} from '@kepler.gl/utils';
-import KeplerGlSchema, {SavedMap, ParsedDataset} from 'schemas';
-import {LoadedMap} from 'schemas/schema-manager';
+import KeplerGlSchema from 'schemas';
 import {Feature} from '@nebula.gl/edit-modes';
 
 // if any of these value occurs in csv, parse it to null;
