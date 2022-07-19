@@ -20,7 +20,8 @@
     "./src/constants",
     "./src/utils",
     "./src/deckgl-layers",
-    "./src/layers"
+    "./src/layers",
+    "./src/cloud-providers"
   ],
   "repository": {
     "type": "git",
