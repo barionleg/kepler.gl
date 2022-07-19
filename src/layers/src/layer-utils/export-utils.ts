@@ -33,7 +33,7 @@ import {
   ExportImage
 } from '@kepler.gl/constants';
 import {Field} from '@kepler.gl/types';
-import {exportMapToHTML} from 'templates';
+import {exportMapToHTML} from '../templates';
 
 import {set, generateHashId, domtoimage} from '@kepler.gl/utils';
 import {createIndexedDataContainer} from 'reducers/table-utils/data-container-utils';
