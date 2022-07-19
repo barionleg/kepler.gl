@@ -95,7 +95,7 @@ import {ActionTypes} from 'actions';
 import {pick_, merge_, swap_} from './composer-helpers';
 import {processFileContent} from 'actions/vis-state-actions';
 
-import KeplerGLSchema from 'schemas';
+import KeplerGLSchema from '@kepler.gl/schemas';
 
 import {
   MapInfo,

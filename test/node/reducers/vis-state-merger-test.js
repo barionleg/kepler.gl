@@ -30,7 +30,7 @@ import {
   insertLayerAtRightOrder
 } from 'reducers/vis-state-merger';
 
-import SchemaManager from 'schemas';
+import SchemaManager from '@kepler.gl/schemas';
 import visStateReducer from 'reducers/vis-state';
 import coreReducer from 'reducers/core';
 import {updateVisData} from 'actions/vis-state-actions';

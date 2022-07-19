@@ -32,7 +32,7 @@ import {
   formatCsv
 } from '@kepler.gl/layers';
 import {toArray} from '@kepler.gl/utils';
-import KeplerGlSchema from 'schemas';
+import KeplerGlSchema from '@kepler.gl/schemas';
 import {Feature} from '@nebula.gl/edit-modes';
 
 // if any of these value occurs in csv, parse it to null;

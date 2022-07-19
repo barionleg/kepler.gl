@@ -28,7 +28,15 @@ import mapStateSchema from './map-state-schema';
 import {CURRENT_VERSION, VERSIONS} from './versions';
 import {isPlainObject} from '@kepler.gl/layers';
 
-import {LoadedMap, MapInfo, ParsedConfig, ParsedDataset, SavedConfigV1, SavedDatasetV1, SavedMap} from '@kepler.gl/types';
+import {
+  LoadedMap,
+  MapInfo,
+  ParsedConfig,
+  ParsedDataset,
+  SavedConfigV1,
+  SavedDatasetV1,
+  SavedMap
+} from '@kepler.gl/types';
 
 export const reducerSchema: {
   [key: string]: typeof mapStateSchema | typeof visStateSchema | typeof mapStyleSchema;
